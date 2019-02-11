@@ -1,0 +1,128 @@
+html, body {
+    margin: 0; height: 100%; width: 100%; background: #fff;
+    -webkit-text-size-adjust : 100%;
+}
+
+#map {
+    height: 90%; bottom:0px; top:-5px;
+}
+
+.leaflet-control-layers label {
+	margin: 0.3rem;
+    }
+
+h1 {
+    color:#333; font-family: serif;
+}
+h2 {
+    display: flex;
+    align-items: center;
+    text-align: center; /* for no-flexbox browsers */
+    color:#333;
+    font-size: 18px; font-weight: 100; font-family: serif;
+    transform: scale(1.2, 1);
+}
+
+h2:before,
+h2:after {
+    border-top: 1px solid;
+    content: "";
+    display: inline; /* for IE */
+    flex-grow: 1;
+}
+
+h2:before {
+    margin-right: 1.0em;
+}
+
+h2:after {
+    margin-left: 1.0em;
+}
+
+
+h3 {
+    display: flex;
+    align-items: center;
+    text-align: center; /* for no-flexbox browsers */
+    color:#333;
+    font-size: 16px; font-weight: 100; font-family: serif;
+    transform: scale(1, 1);
+}
+
+h3:before,
+h3:after {
+    border-top: 1px solid;
+    content: "";
+    display: inline; /* for IE */
+    flex-grow: 1;
+}
+
+h3:before {
+    margin-right: 0.2em;
+}
+
+h3:after {
+    margin-left: 0.2em;
+}
+
+
+h4 {
+    color:#333; font-family: serif;
+}
+
+h5 {
+    color:#333;
+}
+
+figure {
+    text-align: center;
+    font-style: Arial, Helvetica, sans-serif;
+    color: #777;
+    margin: 0.1em;
+    font-size: larger;
+    padding: 0.1em;
+}
+
+th {
+    text-align: left;
+    vertical-align: top;
+}
+
+hr {
+    background-color: #333;
+}
+
+p.footer {
+    color:#777; font-size: 12px; font-weight: normal; font-family: serif;
+}
+
+p.tipstyle01 {
+    color:#333; font-size: 14px; font-weight: bold; font-family: serif;
+}
+
+p.tipstyle02 {
+    color:#333; font-size: 12px; font-weight: normal; font-family: serif;
+}
+
+p.tipstyle03 {
+    color:#333; font-size: 12px; font-weight: bold; font-family: serif;
+}
+
+p.tipstyle04 {
+    color:#333; font-size: 11px; font-weight: bold; font-family: sans-serif;
+}
+
+#header {
+    top:0; height:1px;
+}
+
+hr.headline {
+    border: 0;
+    border-top: 1px solid #555;
+}
+
+p.menutex {
+    margin: 10px;
+    padding: 10px;
+}
+

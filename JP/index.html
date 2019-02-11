@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="jp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1, user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="description" content="World Chroths Map は、世界の各種統計を色分け地図（コロプレス図）で表現したものです。GNIや国連人間開発指数、幸福度や報道の自由度、インターネット普及率といった13種類の出自の異なる国別指標を一つのマップ上で切り替えながら見ることができます。また、世界各地の時間と昼夜境界線もマップ上で確認できます。">
+        <link rel="stylesheet" href="Application/css/main.css" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="crossorigin=""/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="Application/css/easy-button.css" />
+        <link rel="stylesheet" href="Application/css/leaflet-search.css" />
+        <link rel="stylesheet" href="Application/css/leaflet.zoomhome.css" />
+        <link rel="stylesheet" href="Application/css/MarkerCluster.css" />
+        <link rel="stylesheet" href="Application/css/MarkerCluster.Default.css" />
+        <link rel="stylesheet" href="Application/css/L.Control.SlideMenu.css" />
+        <link rel="stylesheet" href="Application/css/Leaflet.PolylineMeasure.css" />
+        <title>World Chroths Map -国際統計による世界の国別色分けマップ</title>
+    </head>
+    <body>
+        <header>
+            <h2>World Chroths Map</h2>    
+        </header>
+        <div id="map">
+        </div>
+        <footer>
+            <hr>
+            <p class="footer" align="center">World Chroths Map 2019 &copy; co-place.com (このウェブサイト上のコンテンツは作成者の政治的・社会的意向を表すものではありません。)</p>
+        </footer>
+        <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="crossorigin=""></script>
+        <script src="Application/data/data.js"></script>
+        <script src="Application/js/L.Terminator.js"></script>
+        <script src="Application/js/L.timezones.js"></script>
+        <script src="Application/js/easy-button.js"></script>
+        <script src="Application/js/leaflet-search.js"></script>
+        <script src="Application/js/leaflet.zoomhome.js"></script>
+        <script src="Application/js/leaflet.markercluster.js"></script>
+        <script src="Application/js/L.Control.SlideMenu.js"></script>
+        <script src="Application/js/Leaflet.PolylineMeasure.js"></script>
+        <script src="Application/js/main.js"></script>
+    </body>
+</html>
