@@ -125,12 +125,12 @@ Country_Stats_PPD = new L.geoJson(json_country, {style: stats_PPD_style, onEachF
 let Country_Stats_GNI;
 
 function getColor_GNI(d){
-    return d > 5 ? '#d53e4f':
-    d > 4 ? '#fc8d59':
-    d > 3 ? '#fee08b':
-    d > 2 ? '#e6f598':
-    d > 1 ? '#99d594':
-    d > 0 ? '#3288bd':
+    return d == 6 ? '#d53e4f':
+    d == 5 ? '#fc8d59':
+    d == 4 ? '#fee08b':
+    d == 3 ? '#e6f598':
+    d == 2 ? '#99d594':
+    d == 1 ? '#3288bd':
     '#999999';
 }
 
@@ -188,12 +188,12 @@ Country_Stats_GNI = new L.geoJson(json_country, {style: stats_GNI_style, onEachF
 let Country_Stats_HDI;
 
 function getColor_HDI(d){
-    return d > 5 ? '#d53e4f':
-    d > 4 ? '#fc8d59':
-    d > 3 ? '#fee08b':
-    d > 2 ? '#e6f598':
-    d > 1 ? '#99d594':
-    d > 0 ? '#3288bd':
+    return d == 6 ? '#d53e4f':
+    d == 5 ? '#fc8d59':
+    d == 4 ? '#fee08b':
+    d == 3 ? '#e6f598':
+    d == 2 ? '#99d594':
+    d == 1 ? '#3288bd':
     '#999999';
 }
  
@@ -252,12 +252,12 @@ Country_Stats_HDI = new L.geoJson(json_country, {style: stats_HDI_style, onEachF
 let Country_Stats_EDU;
 
 function getColor_EDU(d){
-    return d > 5 ? '#d53e4f':
-    d > 4 ? '#fc8d59':
-    d > 3 ? '#fee08b':
-    d > 2 ? '#e6f598':
-    d > 1 ? '#99d594':
-    d > 0 ? '#3288bd':
+    return d == 6 ? '#d53e4f':
+    d == 5 ? '#fc8d59':
+    d == 4 ? '#fee08b':
+    d == 3 ? '#e6f598':
+    d == 2 ? '#99d594':
+    d == 1 ? '#3288bd':
     '#999999';
 }
 
@@ -315,12 +315,12 @@ Country_Stats_EDU = new L.geoJson(json_country, {style: stats_EDU_style, onEachF
 let Country_Stats_GEN;
 
 function getColor_GEN(d){
-    return d > 5 ? '#d53e4f':
-    d > 4 ? '#fc8d59':
-    d > 3 ? '#fee08b':
-    d > 2 ? '#e6f598':
-    d > 1 ? '#99d594':
-    d > 0 ? '#3288bd':
+    return d == 6 ? '#d53e4f':
+    d == 5 ? '#fc8d59':
+    d == 4 ? '#fee08b':
+    d == 3 ? '#e6f598':
+    d == 2 ? '#99d594':
+    d == 1 ? '#3288bd':
     '#999999';
 }
 
@@ -379,12 +379,12 @@ Country_Stats_GEN = new L.geoJson(json_country, {style: stats_GEN_style, onEachF
 let Country_Stats_HPI;
 
 function getColor_HPI(d){
-    return d > 5 ? '#d53e4f':
-    d > 4 ? '#fc8d59':
-    d > 3 ? '#fee08b':
-    d > 2 ? '#e6f598':
-    d > 1 ? '#99d594':
-    d > 0 ? '#3288bd':
+    return d == 6 ? '#d53e4f':
+    d == 5 ? '#fc8d59':
+    d == 4 ? '#fee08b':
+    d == 3 ? '#e6f598':
+    d == 2 ? '#99d594':
+    d == 1 ? '#3288bd':
     '#999999';
 }
 
@@ -442,12 +442,12 @@ Country_Stats_HPI = new L.geoJson(json_country, {style: stats_HPI_style, onEachF
 let Country_Stats_HLX;
 
 function getColor_HLX(d){
-    return d > 5 ? '#d53e4f':
-    d > 4 ? '#fc8d59':
-    d > 3 ? '#fee08b':
-    d > 2 ? '#e6f598':
-    d > 1 ? '#99d594':
-    d > 0 ? '#3288bd':
+    return d == 6 ? '#d53e4f':
+    d == 5 ? '#fc8d59':
+    d == 4 ? '#fee08b':
+    d == 3 ? '#e6f598':
+    d == 2 ? '#99d594':
+    d == 1 ? '#3288bd':
     '#999999';
 }
 
@@ -505,12 +505,12 @@ Country_Stats_HLX = new L.geoJson(json_country, {style: stats_HLX_style, onEachF
 let Country_Stats_ECO;
 
 function getColor_ECO(d){
-    return d > 5 ? '#d53e4f':
-    d > 4 ? '#fc8d59':
-    d > 3 ? '#fee08b':
-    d > 2 ? '#e6f598':
-    d > 1 ? '#99d594':
-    d > 0 ? '#3288bd':
+    return d == 6 ? '#d53e4f':
+    d == 5 ? '#fc8d59':
+    d == 4 ? '#fee08b':
+    d == 3 ? '#e6f598':
+    d == 2 ? '#99d594':
+    d == 1 ? '#3288bd':
     '#999999';
 }
 
@@ -568,12 +568,12 @@ Country_Stats_ECO = new L.geoJson(json_country, {style: stats_ECO_style, onEachF
 let Country_Stats_DSR;
 
 function getColor_DSR(d){
-    return d > 5 ? '#d53e4f':
-    d > 4 ? '#fc8d59':
-    d > 3 ? '#fee08b':
-    d > 2 ? '#e6f598':
-    d > 1 ? '#99d594':
-    d > 0 ? '#3288bd':
+    return d == 6 ? '#d53e4f':
+    d == 5 ? '#fc8d59':
+    d == 4 ? '#fee08b':
+    d == 3 ? '#e6f598':
+    d == 2 ? '#99d594':
+    d == 1 ? '#3288bd':
     '#999999';
 }
 
@@ -632,12 +632,12 @@ Country_Stats_DSR = new L.geoJson(json_country, {style: stats_DSR_style, onEachF
 let Country_Stats_PCE;
 
 function getColor_PCE(d){
-    return d > 5 ? '#d53e4f':
-    d > 4 ? '#fc8d59':
-    d > 3 ? '#fee08b':
-    d > 2 ? '#e6f598':
-    d > 1 ? '#99d594':
-    d > 0 ? '#3288bd':
+    return d == 6 ? '#d53e4f':
+    d == 5 ? '#fc8d59':
+    d == 4 ? '#fee08b':
+    d == 3 ? '#e6f598':
+    d == 2 ? '#99d594':
+    d == 1 ? '#3288bd':
     '#999999';
 }
 
@@ -697,12 +697,12 @@ Country_Stats_PCE = new L.geoJson(json_country, {style: stats_PCE_style, onEachF
 let Country_Stats_PFI;
 
 function getColor_PFI(d){
-    return d > 5 ? '#d53e4f':
-    d > 4 ? '#fc8d59':
-    d > 3 ? '#fee08b':
-    d > 2 ? '#e6f598':
-    d > 1 ? '#99d594':
-    d > 0 ? '#3288bd':
+    return d == 6 ? '#d53e4f':
+    d == 5 ? '#fc8d59':
+    d == 4 ? '#fee08b':
+    d == 3 ? '#e6f598':
+    d == 2 ? '#99d594':
+    d == 1 ? '#3288bd':
     '#999999';
 }
 
@@ -760,12 +760,12 @@ Country_Stats_PFI = new L.geoJson(json_country, {style: stats_PFI_style, onEachF
 let Country_Stats_ICT;
 
 function getColor_ICT(d){
-    return d > 5 ? '#d53e4f':
-    d > 4 ? '#fc8d59':
-    d > 3 ? '#fee08b':
-    d > 2 ? '#e6f598':
-    d > 1 ? '#99d594':
-    d > 0 ? '#3288bd':
+    return d == 6 ? '#d53e4f':
+    d == 5 ? '#fc8d59':
+    d == 4 ? '#fee08b':
+    d == 3 ? '#e6f598':
+    d == 2 ? '#99d594':
+    d == 1 ? '#3288bd':
     '#999999';
 }
 
@@ -824,12 +824,12 @@ Country_Stats_ICT = new L.geoJson(json_country, {style: stats_ICT_style, onEachF
 let Country_Stats_ITN;
 
 function getColor_ITN(d){
-    return d > 5 ? '#d53e4f':
-    d > 4 ? '#fc8d59':
-    d > 3 ? '#fee08b':
-    d > 2 ? '#e6f598':
-    d > 1 ? '#99d594':
-    d > 0 ? '#3288bd':
+    return d == 6 ? '#d53e4f':
+    d == 5 ? '#fc8d59':
+    d == 4 ? '#fee08b':
+    d == 3 ? '#e6f598':
+    d == 2 ? '#99d594':
+    d == 1 ? '#3288bd':
     '#999999';
 }
 
@@ -1049,6 +1049,6 @@ else{
 
 L.Control.zoomHome().addTo(map);
 L.control.scale({maxWidth:150, metric:true, imperial:false, position:'bottomleft'}).addTo(map);
-L.control.polylineMeasure({position:'topleft', unit:'metre', showMeasurementsClearControl: true, showUnitControl: false, measureControlLabel: 'km', measureControlTitleOn: 'Measure Tool', measureControlTitleOff: 'Turn off Measure Tool'}).addTo(map);
+L.control.polylineMeasure({position:'topleft', unit:'metre', showBearings:false, clearMeasurementsOnStop: false, showClearControl: true, showUnitControl: false, measureControlLabel: 'km', measureControlTitleOn: 'Measure Tool', measureControlTitleOff: 'Turn off Measure Tool'}).addTo(map);
 L.control.slideMenu(slidemenutitle + contents, {width: '280px'}).addTo(map);
 L.easyButton('<strong>EN</strong>', function(){ location.href = "https://co-place.com/chroths/en/"; }).addTo(map);
